@@ -1,3 +1,12 @@
+/*
+ * @author John Panos (Westmont College)
+ * @contact jpanos@westmont.edu
+ * @class CS-030
+ * @assignment HalfSizePicture
+ * Created on Mon Jan 13 2020 9:28:14 AM
+ */
+
+
 package com.westmont.cs030;
 
 public class HalfSizePicture {
@@ -5,7 +14,7 @@ public class HalfSizePicture {
 	public static void main(String[] args) {
 		// Create image and center it
 		Picture pic = new Picture();
-		pic.load("queen-mary.png");
+		pic.load("http://www.op-art.co.uk/op-art-gallery/var/albums/your-op-art/twisting-spirals.jpg?m=1342043651");
 		
 		// Resize
 		int newWidth = pic.getWidth() / 2;

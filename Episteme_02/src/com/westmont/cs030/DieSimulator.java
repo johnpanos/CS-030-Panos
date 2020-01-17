@@ -3,7 +3,7 @@
  * @contact jpanos@westmont.edu
  * @class CS-030
  * @assignment DieSimulator
- * Created on Wed Nov 8 2020 9:33:08 AM
+ * Created on Wed Jan 8 2020 10:34:08 AM
  */
 
 package com.westmont.cs030;
