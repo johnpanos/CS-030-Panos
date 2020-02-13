@@ -16,12 +16,12 @@ public class HalfSizePicture {
 		Picture pic = new Picture();
 		pic.load("http://www.op-art.co.uk/op-art-gallery/var/albums/your-op-art/twisting-spirals.jpg?m=1342043651");
 		
-		// Resize
+		// Resize by half
 		int newWidth = pic.getWidth() / 2;
 		int newHeight = pic.getHeight() / 2;
 		pic.scale(newWidth, newHeight);
 		
-		// Move it to the center
+		// Move top left origin to the center
 		pic.move(newWidth / 2, newHeight / 2);
 	}
 

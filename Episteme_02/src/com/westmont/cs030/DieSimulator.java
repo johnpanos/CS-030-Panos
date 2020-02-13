@@ -13,8 +13,11 @@ import java.util.Random;
 public class DieSimulator {
 
 	public static void main(String[] args) {
+		// Init random object for use later
 		Random random = new Random();
+		// Get current roll from 1-6
 		int roll = 1 + random.nextInt(6);
+		// Output current roll
 		System.out.println(roll);
 	}
 
